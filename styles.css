@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    max-height: 30px;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+.hero-image {
+    max-width: 50vw;
+    padding-left: 15px;
+    margin-bottom: 3em;
+}
+/* Image Dimensions Above*/
+
+.header, .container {
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    padding-right: 50px;
+    gap: 15px;   
+    max-width: 100vw;
+    max-height: 25vh;
+}
+
+.container {
+display: flex;
+padding-right: 50px;
+}
+
+.hero-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color:chocolate;
+    color:chartreuse;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/*This completes the top section of the page */
+
+img.pictures {
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+}
+
+div.animals {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    gap: 1rem;
+}
+
+div.animals p {
+    max-width: 10vh;
+}
+
+section.random-information {
+max-height: 25vh;
+}
+
+/* This should almost complete the second section */
+
+.quote {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    max-width: 100vw;
+    padding-left: 50px;
+    background-color: rgb(148, 165, 165);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 50px;
+}
+
+.quote .author {
+    text-align: right;
+    padding-left: 50px;
+}
+ /* The third section does not have the quote centered well enough. */
+
+.top {
+    padding-left: 50px;
+    background-color: darkslategray;
+}
+
+div.cta-container {
+    background-color: rgb(51, 79, 204);
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 50px 25px 50px;
+    padding: 25px;
+    max-width: 100vw;
+}
+
+button.cta-button {
+    padding: 5px 10px;
+}
